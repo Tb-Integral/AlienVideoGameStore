@@ -1,4 +1,5 @@
 using System.Linq;
+using Unity.Cinemachine;
 using UnityEditor;
 using UnityEngine;
 #if STARTER_ASSETS_PACKAGES_CHECKED

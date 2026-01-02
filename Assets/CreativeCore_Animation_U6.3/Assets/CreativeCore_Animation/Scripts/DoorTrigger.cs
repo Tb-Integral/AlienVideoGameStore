@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
@@ -8,11 +9,11 @@ public class DoorTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        anim.SetTrigger("PlayerProximity");
+        anim.SetBool("IsPlayerClosely", true);
     }
 
     private void OnTriggerExit(Collider other)
     {
-        anim.SetTrigger("PlayerProximity");
+        anim.SetBool("IsPlayerClosely", false);
     }
 }

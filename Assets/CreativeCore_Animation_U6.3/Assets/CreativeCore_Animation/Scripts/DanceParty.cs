@@ -20,6 +20,7 @@ public class DanceParty : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             anim.SetTrigger("Dance_01");
+            Debug.Log("pressed Q");
         }
 
         if (Input.GetKeyDown(KeyCode.W))
