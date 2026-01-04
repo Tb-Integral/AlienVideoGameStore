@@ -216,7 +216,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -288,7 +288,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -397,7 +397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405538968963654794, guid: ae9bdcaa1a8496449b1068fd7844906c, type: 3}
       propertyPath: ShapeModule.m_Scale.z
-      value: 27.4
+      value: 17.6
       objectReference: {fileID: 0}
     - target: {fileID: 3405538968963654794, guid: ae9bdcaa1a8496449b1068fd7844906c, type: 3}
       propertyPath: EmissionModule.m_BurstCount
@@ -565,7 +565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5690135326645581097, guid: ae9bdcaa1a8496449b1068fd7844906c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.963579
+      value: 0.32000017
       objectReference: {fileID: 0}
     - target: {fileID: 5690135326645581097, guid: ae9bdcaa1a8496449b1068fd7844906c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1846,11 +1846,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3502154994028024292, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.6635511
+      value: 0.9038632
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502154994028024292, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.81
       objectReference: {fileID: 0}
     - target: {fileID: 3502154994028024292, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -30.952394
+      value: -29.710133
       objectReference: {fileID: 0}
     - target: {fileID: 3502154994028024293, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2014,11 +2018,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3952814189181501099, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.4157612
+      value: 3.9831743
+      objectReference: {fileID: 0}
+    - target: {fileID: 3952814189181501099, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.86
       objectReference: {fileID: 0}
     - target: {fileID: 3952814189181501099, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -26.795094
+      value: -25.552832
       objectReference: {fileID: 0}
     - target: {fileID: 3988019036265794447, guid: a6d80765aedf8b940bc1d65943d787c4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3011,7 +3019,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -3542,7 +3550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3405538968963654794, guid: ae9bdcaa1a8496449b1068fd7844906c, type: 3}
       propertyPath: ShapeModule.m_Scale.z
-      value: 27.4
+      value: 17.6
       objectReference: {fileID: 0}
     - target: {fileID: 3405538968963654794, guid: ae9bdcaa1a8496449b1068fd7844906c, type: 3}
       propertyPath: EmissionModule.m_BurstCount
@@ -3710,7 +3718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5690135326645581097, guid: ae9bdcaa1a8496449b1068fd7844906c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.963579
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 5690135326645581097, guid: ae9bdcaa1a8496449b1068fd7844906c, type: 3}
       propertyPath: m_LocalRotation.w
